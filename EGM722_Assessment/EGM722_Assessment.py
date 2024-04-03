@@ -3,9 +3,16 @@ import matplotlib.pyplot as plt
 import numpy
 import rasterio
 
+
+def download('C:\Users\Mervyn Boyle\Documents\GitHub\EGM722_Assessment\EGM722_Assessment\NIR_Sheet_162\162_16_2022a_4BAND.tif'):
+    pass
+
+
+download ('C:\Users\Mervyn Boyle\Documents\GitHub\EGM722_Assessment\EGM722_Assessment\NIR_Sheet_162\162_16_2022a_4BAND.tif')
+
 # Extracting the data from the red and near-infrared bands
 
-filename16 = r'C:\Users\Mervyn Boyle\Documents\GitHub\EGM722_Assessment\NIR_Sheet_162\162-16_2022a_4BAND.tif'
+filename16 = '162-16_2022a_4BAND.tif'
 with rasterio.open('filename16') as src:
     band_red = src.read(3)
 with rasterio.open('filename16') as src:
