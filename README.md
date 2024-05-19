@@ -1,2 +1,4 @@
 # EGM722_Assessment
 EGM722 Assessment Part 2: NDVI Analysis
+This Python script processes a series of four band orthorectified aerial images taken and processed by the Ordnance Survey of Northern Ireland (OSNI) to calculate and visualise the Normalised Difference Vegetation Index (NDVI). The code automates the tasks of loading the image files, computing the NDVI values, normalising the results and saving them as GeoTIFF files with a colour map to represent vegetation health. The script manages potential errors and ensures only existing files are processed, making it a useful tool for remote sensing and environmental analysis. 
+The aerial images are sourced under the Northern Ireland Mapping Agreement, of which Ulster University is part of, and so under copyright and licencing restrictions the images used can not be included in the GitHub repository. The specific imagery used in this code is from Sheet 162 which OSNI covered in 2022.
